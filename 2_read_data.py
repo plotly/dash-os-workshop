@@ -1,7 +1,7 @@
 # Import packages
 from dash import Dash, html, dash_table
-import plotly.express as px
 import pandas as pd
+import plotly.express as px
 
 # Incorporate data
 df = px.data.gapminder()
