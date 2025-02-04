@@ -9,12 +9,13 @@
 
 ## About this workshop
 
-In this workshop, you'll learn the basics of creating an interactive data application using the open-source Dash framework. More specifically, this workshop will introduce you to the concepts of:
+In this workshop, you will learn how to build an interactive front end for your Python data science models. More specifically, this workshop cover the following:
 
-* Initializing and running a Dash application
+* Introduction to the fundamentals of Plotly graphing libraries
 * Defining an application layout
 * Writing callback functions to make your application interactive
-* Basic application styling using CSS and open-source libraries like Dash Bootstrap Components and Dash Mantine Components
+* Creating a front end to run a machine learning model in Dash
+* Showing examples of Dash applications for different use cases
 
 Downloading the files ahead of time isn't required, but may be helpful for following along.
 
@@ -56,3 +57,9 @@ You can run the app on your browser at http://127.0.0.1:8050
 ## Resources
 
 To learn more about Dash, please visit [Plotly's documentation site](https://dash.plotly.com/).
+
+<div align="center">
+  <a href="https://dash.plotly.com/project-maintenance">
+    <img src="https://dash.plotly.com/assets/images/maintained-by-plotly.png" width="400px" alt="Maintained by Plotly">
+  </a>
+</div>

@@ -10,14 +10,14 @@ df = px.data.gapminder()
 app = Dash(__name__)
 
 # App layout
-app.layout = html.Div([
-    html.Div(children="My First App with Data and a Graph"),
-    dash_table.DataTable(data=df.to_dict("records"), page_size=10),
-    dcc.Graph(figure=px.histogram(df, x="continent", y="lifeExp", histfunc="avg"))
-])
+app.layout = html.Div(
+    [
+        html.Div(children="My First Application at ODSC with Data and a Graph"),
+        dash_table.DataTable(data=df.to_dict("records"), page_size=10),
+        dcc.Graph(figure=px.histogram(df, x="continent", y="lifeExp", histfunc="avg")),
+    ]
+)
 
 # Run the app
 if __name__ == "__main__":
     app.run_server(debug=True)
-
-
